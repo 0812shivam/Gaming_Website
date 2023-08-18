@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="icon" href="https://images.vexels.com/media/users/3/139158/isolated/preview/c862a3c9ef219140fb365301f9ebbd50-black-dot.png">
+    <link rel="stylesheet" href="quiz.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<!------ NavBar Starts ------>
+
+<nav class="header">
+    <div class="nav-icon">
+        <a href="#"><img class="nav-img" src="https://www.freeiconspng.com/thumbs/gaming-logo/esports-gaming-logo-png-transparent-image-14.png" alt="#logo"></a>
+    </div>
+    <div class="menu">
+        <div class="nav-section-links ">
+
+            <div class="dropdown ">
+                <button class="dropbtn"><a class="nav-links" href="https://www.youtube.com/watch?v=xvFZjo5PgG0&t" >Get_RickRolled! <i class="fa fa-caret-down"></i></a>
+                  
+                </button>
+                <div class="dropdown-content">
+                  <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&t"  target="_blank">Don't</a>
+                  <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&t"  target="_blank">Click</a>
+                  <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&t"  target="_blank">Here</a>
+                </div>
+            </div> 
+
+        <!-- <div><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&t" target="_blank" class="nav-links">Get_RickRolled!</a></div> -->
+        <!-- <div class="dont"><a href="https://www.youtube.com/watch?v=lS5Eo9o5jDI" target="_blank" class="nav-links">Don't_Click_Here</a></div> -->
+        </div>
+
+        <input type="checkbox" class="checkbox" id="checkbox" onchange="handleThemeChange()">
+        <label for="checkbox" class="checkbox-label">
+        <i class="fa fa-sun-o"></i>
+        <i class="fa fa-moon-o"></i>
+        <span class="ball"></span>
+        </label>
+    </div>
+</nav>
+
+<!------ NavBar Starts ------>
+
+<!------Advertisement Column Starts-------->
+
+<div class="adv">
+    <!-- <p>advertisement here.</p> -->
+    <!-- <div><a href="http://127.0.0.1:5500/Medium/Medium.html" target="_blank"><img class="logo" src="https://miro.medium.com/max/8978/1*s986xIGqhfsN8U--09_AdA.png" alt="Medium (our other website ad)"></a></div>
+    <div><a href="http://127.0.0.1:5500/StaffHub/StaffHub.html" target="_blank"><img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWYglv6adfEoBjXtZ5islxh7WfvjLfKJ4_NVsv4oFCLHFribM6TLYXoK5ZA_xB-J8Vw&usqp=CAU" alt="StaffHub: Stay Employed.(our other website ad)"></a></div>
+    <div><a href="http://127.0.0.1:5500/Medium/Medium.html" target="_blank"><img class="logo" src="https://miro.medium.com/max/8978/1*s986xIGqhfsN8U--09_AdA.png" alt="Medium"></a></div>
+    <div><a href="http://127.0.0.1:5500/StaffHub/StaffHub.html" target="_blank"><img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWYglv6adfEoBjXtZ5islxh7WfvjLfKJ4_NVsv4oFCLHFribM6TLYXoK5ZA_xB-J8Vw&usqp=CAU" alt="StaffHub: Stay Employed.(our other website ad)"></a></div>
+    <div class="linkedin">
+    <span><a href="https://www.linkedin.com/in/shruti-goel-a87325246/" target="_blank"><img class="linekdin-img" src="https://media.licdn.com/dms/image/D4D03AQHW9xPV4zwBFg/profile-displayphoto-shrink_800_800/0/1691580001483?e=1697673600&v=beta&t=O4cVcetkWgzg_gvy7xSsxeAI7-jDmhnjadZNiJJaFKA" alt="Shruti's LinkedIn"></a></span>
+    <span><a href="https://www.linkedin.com/in/shivam-gupta08/" target="_blank"><img class="linekdin-img" src="https://media.licdn.com/dms/image/D4D03AQHE29bQpH256g/profile-displayphoto-shrink_800_800/0/1682581313634?e=1697673600&v=beta&t=YH9jA-2tILedwkaiEuG9BmcZ5Fo6uUcU3cFTwt8mkIo" alt="Shivam's LinkedIn"></a></span> -->
+    <div><a href="https://www.crazygames.com/game/hard-wheels" target="_blank"><img class="logo" src="https://images.crazygames.com/games/hard-wheels-2/cover-1608136623356.png?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=1200&h=630&fit=crop" alt=""></a></div>
+    <div><a href="https://www.crazygames.com/game/fireboy-and-watergirl-the-forest-temple" target="_blank"><img class="logo" src="https://images.crazygames.com/games/fireboy-and-watergirl-the-forest-temple/cover-1586285142530.jpg?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=1200&h=630&fit=crop" alt=""></a></div>
+    <div><a href="https://www.crazygames.com/game/smash-karts" target="_blank"><img class="logo" src="https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/9c9e529b14731be871b07b89660bbc2a.png" alt=""></a></div>
+    <div><a href="" target="_blank"><img class="logo" src="" alt=""></a></div>
+
+        
+</div>
+</div>
+
+<!------Advertisement Column Starts-------->
+
+<!------ Quiz Box Starts ------>
+<section class="quiz">
+    <div class="quizh">
+        <h1 class="heading q">Q</h1>
+        <h1 class="heading u">u</h1>
+        <h1 class="heading i">i</h1>
+        <h1 class="heading z">z</h1>
+        <h1 class="heading ep">!</h1>
+    </div>
+    <section class="quizbox">
+        <div class="container">
+            <div class="col quebox">
+                <h3 class="questiontext" id="questionBox">
+                    1. Lorem ipsum dolor sit amet, consectetur adipisicing elit Debitis?
+                </h3>
+            </div>
+            <label class="col box">
+                <input class="rad" type="radio" name="option" value="a" required> <span class="text">Test1</span>
+            </label>
+            <label class="col box">
+                <input class="rad" type="radio" name="option" value="b"> <span class="text">Test2</span>
+            </label>
+            <label class="col box">
+                <input class="rad" type="radio" name="option" value="c"> <span class="text">Test3</span>
+            </label>
+            <label class="col box">
+                <input class="rad" type="radio" name="option" value="d"> <span class="text">Test4</span>
+            </label>
+            <div class="but">
+            <button id="reset">Reset</button>
+            <button id="submit">Submit</button>
+            </div>
+        </div>
+    </section>
+</section>
+<!------ Quiz Box Ends ------>
+
+
+<!-------- Aside Starts ------->
+  <aside class="aside">
+        <div><a href="https://www.crazygames.com/" target="_blank"><img class="logo" src="https://images.crazygames.com/crazygames/share.png?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=1200&h=630&fit=crop" alt=""></a></div>
+        <div class="aside-section">
+            <h4 class="aside-heading">Play other games</h4>
+            <div class="aside-container">
+                <div class="aside-content"><a href="https://sudoku.com/" target="_blank" class="gg">Sudoko</a></div>
+                <div class="aside-content"><a href="https://www.tictactoe.com/" target="_blank" class="gg">Tic Tac Toe</a></div>
+                <div class="aside-content"><a href="https://pacman.com/" target="_blank" class="gg">Pacman</a></div>
+                <div class="aside-content"><a href="https://ludokinglive.com/" target="_blank" class="gg">Ludo</a></div>
+                <div class="aside-content"><a href="https://www.crazygames.com/t/racing" target="_blank" class="gg">Car Racing</a></div>
+                <div class="aside-content"><a href="https://www.crazygames.com/t/tank" target="_blank" class="gg">Tank Game</a></div>
+                <div class="aside-content"><a href="https://www.crazygames.com/t/barbie" target="_blank" class="gg">Barbie</a></div>
+                <div class="aside-content"><a href="https://www.crazygames.com/game/papas-pizzeria" target="_blank" class="gg">Pizzeria</a></div>
+                <div class="aside-content diff"><a href="https://spotthedifference.com/" target="_blank" class="gg">Spot the difference</a></div>
+            </div>
+        </div>
+  </aside>
+    </div>
+<!------- Aside Ends ------->
+
+<!------ Footer Starts ------>
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+      <div class="footer-section about">
+        <h3>About Us</h3><br>
+        <p>Welcome! Our passion is to offer engaging quizzes that entertain and educate. Join us in the journey of discovery and learning.</p>
+      </div>
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li class="ql"><a class="links" href="#">Home</a></li>
+          <li class="ql"><a class="links" href="http://127.0.0.1:5500/StaffHub/StaffHub.html" target="_blank">StaffHub</a></li>
+          <li class="ql"><a class="links" href="http://127.0.0.1:5500/Medium/Medium.html" target="_blank">Medium</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <!-- <h3 class="cont" h>Contact Information</h3> -->
+        <a class="cont" href="tel:+919650534320" target="_blank"><img class="cont-logo" src="https://cdn-icons-png.flaticon.com/512/94/94915.png"></a><br>
+        <a class="cont" href="mailto:shru.g3010@gmail.com" target="_blank"><img class="cont-logo" src="https://cdn-icons-png.flaticon.com/256/666/666162.png"></a><br>
+        <a class="cont" href="https://www.google.com/maps/place/New+Delhi" target="_blank"><img class="cont-logo" src="https://cdn-icons-png.flaticon.com/256/64/64113.png"></a><br>
+        <a class="cont" href="https://www.linkedin.com/in/shruti-goel-a87325246/" target="_blank"><img class="cont-logo" src="https://www.pagetraffic.com/blog/wp-content/uploads/2022/09/linkedin-black-logo-icon.png"></a><br>
+        <a class="cont" href="https://www.linkedin.com/in/shivam-gupta08/" target="_blank"><img class="cont-logo" src="https://www.pagetraffic.com/blog/wp-content/uploads/2022/09/linkedin-black-logo-icon.png"></a><br>
+        
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2023 company. All rights reserved.</p>
+    </div>
+
+  </footer>
+
+<!------ Footer Starts ---- -->
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>
